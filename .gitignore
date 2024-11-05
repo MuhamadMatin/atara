@@ -1,0 +1,119 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@azkydinn 
+ColorlibHQ
+/
+AdminLTE
+Public
+Fork your own copy of ColorlibHQ/AdminLTE
+Code
+Issues
+56
+Pull requests
+33
+Discussions
+Actions
+Projects
+1
+Security
+Insights
+AdminLTE/.gitignore
+@REJack
+REJack remove flot-old and add flot plugins from flot/source folder (#2924)
+Latest commit 67c15d1 on Jul 25, 2020
+ History
+ 7 contributors
+@almasaeed2010@XhmikosR@REJack@Dennis14e@Leviasan@jorgevilaca82@jbouzekri
+71 lines (63 sloc)  1.18 KB
+
+# System / Log files
+*.DS_Store
+*.log
+
+# Archives
+*.zip
+
+# Sass Cache
+.sass-cache
+
+# Project files
+.idea
+nbproject
+nbproject/private
+.vscode/
+.vs/
+
+# Node / Bower
+node_modules/
+bower_components/
+
+# Plugins
+/plugins/**/*.html
+/plugins/**/*.less
+/plugins/**/*.md
+/plugins/**/*.scss
+/plugins/**/*.ts
+/plugins/**/bower.json
+/plugins/**/package.json
+/plugins/**/webpack.config.js
+/plugins/**/demo/
+/plugins/**/demos/
+/plugins/**/dev/
+/plugins/**/example/
+/plugins/**/examples/
+/plugins/**/less/
+/plugins/**/test/
+/plugins/**/tests/
+/plugins/daterangepicker/website/
+/plugins/daterangepicker/drp.png
+/plugins/daterangepicker/moment.min.js
+/plugins/daterangepicker/package.js
+/plugins/daterangepicker/website.css
+/plugins/daterangepicker/website.js
+/plugins/jquery-ui/AUTHORS.txt
+/plugins/jquery-ui/external/jquery/jquery.js
+/plugins/inputmask/bindings/
+/plugins/flot/plugins/jquery*.js
+!/plugins/flot/plugins/jquery.flot.*.js
+!/plugins/**/LICENSE.md
+!/plugins/**/LICENSE.txt
+!/plugins/**/license.md
+!/plugins/**/license.txt
+!/plugins/**/LICENSE
+!/plugins/**/license
+!/plugins/**/COPYING
+
+
+# Docs
+/docs/_site/
+/docs/vendor/
+/docs/.bundle/
+/docs_html/
+.jekyll-cache/
+.jekyll-metadata
+
+# ETC
+TODO
+test.html
+ad.js
+/.cache/
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
